@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+
+.wrepper{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/3ytjETpQMNY/1600x900');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.product{
+    background: #fff;
+    width: 800px;
+    height: 550px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    padding: 30px;
+    display: flex;
+}
+.info{
+    background: #363636;
+    width: 50%;
+    height: 100%;
+    padding: 54px 30px;
+    float: left;
+    z-index: 1;
+}
+.info h1{
+    font-size: 110px;
+    width: 600px;
+    text-shadow: 1px 12px 5px rgba(0,0,0,.2);
+    margin-top: 20px;
+    color: #fff;
+}
+.price{
+    font-size: 32px;
+    color: tomato;
+}
+button{
+    padding: 10px 60px;
+    background: -webkit-linear-gradient(left top,yellow,red);
+background: -o-linear-gradient(bottom right,yellow,red);
+background: -moz-linear-gradient(bottom right,yellow,red);
+background: linear-gradient(to bottom right,yellow,red);
+border: 0px;
+border-radius: 5px;
+color: #fff;
+margin-top: 20px;
+}
+P{
+    text-align: justify;
+    color: #fff;
+    line-height: 20px;
+}
+.image{
+    background-image: url(https://images.unsplash.com/photo-1558981033-f5e2ddd9c57e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/*  */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  .absolute-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .fog {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+  }
+  .fog__container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .fog__img {
+    position: absolute;
+    height: 100vh;
+    width: 300vw;
+  }
+  .fog__img--first {
+    background: url("https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-1.png") repeat-x;
+    background-size: contain;
+    background-position: center;
+    -webkit-animation: marquee 60s linear infinite;
+            animation: marquee 60s linear infinite;
+  }
+  .fog__img--second {
+    background: url("https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-2.png") repeat-x;
+    background-size: contain;
+    background-position: center;
+    -webkit-animation: marquee 40s linear infinite;
+            animation: marquee 40s linear infinite;
+  }
+  
+  @-webkit-keyframes marquee {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(-200vw, 0, 0);
+              transform: translate3d(-200vw, 0, 0);
+    }
+  }
+  
+  @keyframes marquee {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(-200vw, 0, 0);
+              transform: translate3d(-200vw, 0, 0);
+    }
+  }
+  
